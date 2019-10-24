@@ -3,8 +3,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "mrh111",
-      "email": "mrh111@126.com"
+      "name": "renhui",
+      "email": "jinzhan_mrh111@126.com"
     }
   ],
   "minimum-stability": "stable",
@@ -15,13 +15,7 @@
     "classmap": [
     ],
     "psr-4": {
-      "TaobaoUnionSdk\\": "src"
-    }
-  },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.laravel-china.org"
+      "mrh111\\taobaosdk\\": "src"
     }
   }
 }
