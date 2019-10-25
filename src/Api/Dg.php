@@ -61,7 +61,7 @@ class Dg extends GateWay
         $result = $this->send('taobao.tbk.dg.material.optional', $params);
         $da['lists'] = $result['result_list']['map_data'] ?? false;
         //$da['total'] = $result['total_results'];
-        return $result;
+        return $da;
     }
 
     /**
