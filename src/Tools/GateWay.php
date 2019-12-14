@@ -57,6 +57,7 @@ class GateWay
         $sysParams["v"] = $this->globalConfig['apiVersion'];
         $sysParams["format"] = $this->globalConfig['format'];
         $sysParams["sign_method"] = $this->globalConfig['signMethod'];
+        $sysParams["session"] = $this->globalConfig['session'];
         $sysParams["method"] = $method;
         $sysParams["timestamp"] = \date("Y-m-d H:i:s");
         $sysParams["sign"] = $this->generateSign(array_merge($params, $sysParams), $this->globalConfig['secretKey']);
